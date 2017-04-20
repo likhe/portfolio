@@ -1,12 +1,7 @@
+
 body {
-    background: url('mockuptest.png')no-repeat center center fixed;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -ms-background-size: cover;
-    -o-background-size: cover;
     font-size: 16px;
     font-family: "Garamond";
-    background-color: transparent;
     overflow-x: hidden;
 }
 
@@ -16,7 +11,29 @@ body {
 h1 {
     background-color: transparent;
 }
-
+#home {
+  background:url('patternfullscreen.png'), url('marseille.jpg');
+  background-repeat: repeat, no-repeat;
+  background-position: ' ', center center;
+  -webkit-background-size: 100px 100px, cover;
+  -ms-background-size: 100px 100px, cover;
+  -o-background-size: 100px 100px, cover;
+  animation-name:change;
+  animation-duration:5s;
+  animation-iteration-count: infinite;
+  transition: filter 1s ease;
+}
+@keyframes change {
+    0% {
+      filter: hue-rotate(136deg);
+    }
+    50% {
+      filter: hue-rotate(200deg);
+    }
+    100% {
+      filter: hue-rotate(280deg);
+    }
+}
 .panel {
     margin-top: 30vh;
     background-color: #fff;
