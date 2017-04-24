@@ -12,6 +12,8 @@ h1 {
 }
 
 #home {
+  width: 100vw;
+  height: 100%;
   background: url('pattern.gif'), url('marseille.jpg');
   background-repeat: repeat, no-repeat;
   background-position: ' ', center center;
@@ -64,6 +66,8 @@ h1 {
 
 #resume {
   background-color: lime;
+  padding: 2em;
+  padding-top: 0;
 }
 
 #works {
@@ -116,8 +120,10 @@ h5, h6 {
   margin-right: 30px;
   float: right;
 }
-
-
+/***********the buttons***************/
+[data-list="cv"] {
+  padding-top: 1em;
+}
 /*************icons for the experiences works*********************/
 
 .icon {
@@ -184,7 +190,11 @@ h5, h6 {
   width: 3em;
   height: 3em;
 }
-
+/*******size of my image*******/
+.img-circle {
+  width: 300px;
+  height: 300px;
+}
 
 /*********projects effect***************/
 
@@ -250,6 +260,6 @@ hr {
 /**************the footer end*****************/
 
 .size-footer {
-  width: 100vw;
-  height: 10%;
+  width: 100%;
+  height: 100px;
 }
