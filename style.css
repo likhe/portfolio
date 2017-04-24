@@ -135,7 +135,9 @@ h1 {
 
 
 /*********fonts******************/
-
+h2 {
+  font-size: 1.5em !important;
+}
 h3 {
   font-family: "Nib", serif !important;
   font-size: 5em !important;
@@ -158,6 +160,12 @@ h6 {
   font-size: 18px !important;
 }
 
+.middle-text {
+  font-family: "Nib";
+  letter-spacing: 0.2em;
+  font-size: 3em;
+  color: #fff;
+}
 h5, h6 {
   margin-bottom: 25px !important;
   margin-top: 25px !important;
@@ -275,12 +283,6 @@ a[data-filter] {
   text-align: center;
 }
 
-.middle-text {
-  font-family: "Nib";
-  letter-spacing: 0.2em;
-  font-size: 3em;
-  color: #fff;
-}
 
 hr {
   color: #fff;
@@ -288,12 +290,20 @@ hr {
 
 .middle>.btn {
   border-radius: 50%;
+  width: 50px;
+  height: 50px;
   border: none;
   padding-top: 0.5em;
   padding-bottom: 0.5em;
 }
-
-
+.glyphicon .glyphicon-plus {
+  color: #fff;
+  text-align: center;
+}
+.glyphicon .glyphicon-plus:hover {
+  color: #fff;
+  transform: scale(1.5);
+}
 /*****modal window*********/
 
 .modal-title {
