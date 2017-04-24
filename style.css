@@ -122,7 +122,10 @@ h5, h6 {
 }
 /***********the buttons***************/
 [data-list="cv"] {
-  padding-top: 1em;
+  padding-top: 2em;
+}
+a[data-filter] {
+  padding-right: 7em;
 }
 /*************icons for the experiences works*********************/
 
