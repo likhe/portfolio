@@ -244,6 +244,7 @@ hr {
 }
 
 .col-lg-4:hover img {
+-webkit-filter: hue-rotate(300deg);
   filter: hue-rotate(300deg);
   opacity: 0.95;
 }
@@ -265,4 +266,7 @@ hr {
 .size-footer {
   width: 100%;
   height: 100px;
+}
+.arrow {
+font-size: 3em;  
 }
