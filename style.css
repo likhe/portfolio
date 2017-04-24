@@ -1,21 +1,55 @@
+@font-face {
+  font-family: "Disco";
+  src: url('fonts/disco/disco.ttf');
+}
+
+@font-face {
+  font-family: 'Eraser';
+  src: url('fonts/eraser/EraserRegular.ttf');
+}
+
+@font-face {
+  font-family: 'Nib';
+  src: url('fonts/nib handwritten/Nibhandwritten.ttf');
+}
+
 body {
   font-size: 16px;
-  font-family: "Garamond";
+  font-family: "Disco", serif !important;
+  letter-spacing: 0.2em;
+  text-decoration: none;
   overflow-x: hidden;
 }
 
+
 /*********navbar****************/
-#collapse{
+
+#collapse {
   background-color: white;
 }
+
 .navbar-default {
   opacity: 0.5;
   border-color: white !important;
 }
+
+.nav>li>a:hover, .nav>li>a:focus {
+  border-left: 2px solid red;
+  text-decoration: none;
+  background-color: white !important;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+  background-color: white !important;
+  border-left: 2px solid red;
+}
+
+
 /******first page**********************/
 
 h1 {
   background-color: transparent;
+  font-family: 'Eraser', serif !important;
 }
 
 #home {
@@ -58,18 +92,15 @@ h1 {
   background-position: center;
 }
 
-/*.center-block {
-  border-radius: 50%;
-  padding: 10px;
-  margin-top: 20vh;
-}
-
-.panel-default {
-  border: none;
-}*/
-
 .margin-base-vertical {
   margin: 40px 0;
+  text-decoration: none;
+}
+
+.download:hover, .download:focus {
+  text-decoration: none !important;
+  letter-spacing: 0.5em;
+  transition: all .5s ease;
 }
 
 .vertical-margin-text {
@@ -106,6 +137,8 @@ h1 {
 /*********fonts******************/
 
 h3 {
+  font-family: "Nib", serif !important;
+  font-size: 5em !important;
   margin-top: 0 !important;
   padding-top: 50px;
   margin-bottom: 50px !important;
@@ -243,8 +276,10 @@ a[data-filter] {
 }
 
 .middle-text {
+  font-family: "Nib";
   letter-spacing: 0.2em;
-  font-size: 1.5em;
+  font-size: 3em;
+  color: #fff;
 }
 
 hr {
