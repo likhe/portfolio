@@ -20,11 +20,6 @@ body {
   text-decoration: none;
   overflow-x: hidden;
   background-image: linear-gradient(135deg, #667eea 0%,red 100%);
-  transition: all 1s ease;
-
--webkit-animation: changeGradient 7s ease infinite;
--moz-animation: changeGradient 7s ease infinite;
-animation: changeGradient 7s ease infinite;
 
 }
 /*********navbar****************/
