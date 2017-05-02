@@ -1,6 +1,6 @@
 @font-face {
-  font-family: "Disco";
-  src: url('fonts/disco/disco.ttf');
+  font-family: "Reef";
+  src: url('fonts/Reef.otf');
 }
 
 @font-face {
@@ -15,7 +15,7 @@
 
 body {
   font-size: 16px;
-  font-family: "Disco", serif !important;
+  font-family: "Reef", serif !important;
   letter-spacing: 0.2em;
   text-decoration: none;
   overflow-x: hidden;
