@@ -59,32 +59,17 @@ h1 {
   background: url('navbar.png'), url('pattern.gif');
   background-position: bottom, ' ';
   background-repeat: no-repeat, repeat;
-  -webkit-background-size: 1700px 70px, 200px 200px;
-  -ms-background-size: 1000px 50px, 200px 200px;
-  -o-background-size: 1000px 50px, 200px 200px;
-}
-
-@-webkit-keyframes changeGradient {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 51%}
-    100%{background-position:0% 50%}
-}
-@-moz-keyframes changeGradient {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 51%}
-    100%{background-position:0% 50%}
-}
-@keyframes changeGradient {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 51%}
-    100%{background-position:0% 50%}
+  background-size: 100% 5em, 200px 200px;
+  -webkit-background-size: 100% 5em, 200px 200px;
+  -ms-background-size: 100% 5em, 200px 200px;
+  -o-background-size: 100% 5em, 200px 200px;
 }
 
 .brush {
   margin-top: 33vh;
   opacity: 0.95;
   background-image: url('brush.png');
-  background-size: 80em 70em;
+  background-size: 60em 60em;
   background-repeat: no-repeat;
   background-position: center;
 }
